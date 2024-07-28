@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gym center</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+  /* css reset */
+  body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('abs-1850926_1280.jpg');
+    height: 12345;
+  }
+  .left {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+
+
+
+  }
+
+  .left img {
+    width: 50px;
+  }
+
+  .left div {
+    text-align: center;
+    line-height: 6px;
+    font-size: 8px;
+  }
+
+  .mid {
+    display: block;
+    width: 37%;
+    margin: 12px auto;
+    top: 20px;
+
+  }
+
+  .right {
+    font-family: 'Baloo Bhai', cursive;
+    position: absolute;
+    width: 16%;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+  }
+
+  .navbar {
+    display: inline-block;
+  }
+
+  .navbar li {
+    display: inline-block;
+    font-size: 13px;
+
+  }
+
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px 15px;
+  }
+
+  .navbar li a:hover,
+  .navbar li a.active {
+    text-decoration: underline;
+    color: aquamarine;
+  }
+
+  .btn {
+    font-family: cursive;
+    margin: 4px 14px;
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    border: 2px grey;
+    border-radius: 25px;
+    font-size: 4px;
+    line-height: 10px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: green;
+  }
+
+  .container {
+    font-family: cursive;
+    border: 2px solid white;
+    margin: 90px 650px;
+    padding: 75px 75px;
+    width: 25%;
+    border-radius: 26px;
+
+  }
+
+  .Form-group input {
+    font-family: cursive;
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 11px auto;
+    font-size: 10px;
+    border-radius: 23px;
+    line-height: 17px;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+
+  .container button {
+    width: 80%;
+    display: block;
+    margin: 26px auto;
+    padding: 13px;
+    color: white;
+  }
+</style>
+
+<body>
+  <header class="header">
+
+    <div class="left">
+      <img src="logo.jpg" alt="">
+      <div>Aarti Fitness</div>
+    </div>
+
+
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Fitness center</a></li>
+        <li><a href="#"> Contact us</a></li>
+      </ul>
+
+    </div>
+    <div class="right">
+      <button class="btn">Call Us Now</button><button class="btn">Email us</button>
+
+    </div>
+
+
+  </header>
+  <div class="container">
+    <h1>Join the best gym of dhanbad now</h1>
+    <form action="noaction.php">
+      <div class="Form-group">
+        <input type="text" name="" placeholder="Enter your Name">
+      </div>
+      <div class="Form-group">
+        <input type="text" name="" placeholder="Enter your Age">
+      </div>
+      <div class="Form-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+      </div>
+      
+      <div class="Form-group">
+        <input type="text" name="" placeholder="Enter your Mobile No">
+      </div>
+      <div class="Form-group">
+        <input type="text" name="" placeholder="Enter your Email id">
+      </div>
+      <button class="btn">Summit</button>
+    </form>
+  </div>
+
+</body>
+
+</html>
